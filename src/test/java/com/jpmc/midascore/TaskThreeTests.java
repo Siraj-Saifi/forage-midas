@@ -14,6 +14,7 @@ import org.springframework.test.annotation.DirtiesContext;
 public class TaskThreeTests {
     static final Logger logger = LoggerFactory.getLogger(TaskThreeTests.class);
 
+
     @Autowired
     private KafkaProducer kafkaProducer;
 

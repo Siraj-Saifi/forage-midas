@@ -1,6 +1,7 @@
 package com.jpmc.midascore.component;
 
 import com.jpmc.midascore.foundation.Transaction;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
